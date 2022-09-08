@@ -1,0 +1,146 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* FIRST-BANNER */
+#first-banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+#skip-page{
+    margin-left: 100px; 
+}
+
+#right-img{
+    width: 600px;
+    display: flex;
+}
+
+#skip-tittle{
+    width: 500px;
+   font-size: 340%;
+}
+
+#skip-color{
+    color: orange;
+}
+
+p{
+    font-size: larger;
+    text-align: justify;
+}
+
+#left-button{
+    background-image: linear-gradient(rgb(241, 160, 8), rgb(255, 72, 0));
+    border: orange;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/*SECOND-BANNER  */
+#second-banner{
+    display: flex;
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+#left-img{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#about-page{
+    width: 40%;
+    padding-top: 100px;
+}
+
+#about-me{
+    font-size: 250%;
+    color: rgb(104, 85, 85);
+}
+
+#right-button{
+    background-image: linear-gradient(rgb(241, 160, 8), rgb(255, 72, 0));
+    border: orange;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 50px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/*THIRD-BANNER  */
+#my-recipies{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#lorem{
+    text-align: center;
+}
+
+#third-banner-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+#my-recipies-title{
+    color:  rgb(104, 85, 85);
+    font-size: 30px;
+}
+
+.Recipie-title{
+    padding: 20px;
+    box-shadow: 0px 0px 40px gray;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.third-banner-img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*FOUR-BANNER  */
+#followers-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    box-shadow: 0px 0px 40px gray;
+    border-radius: 20px;
+}
+.number-box{
+    font-size: 300%;
+}
+
+/*FIVE-BANNER  */
+#five-banner{
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    padding-top: 30px;
+}
+#network-color{
+   color: rgb(107, 101, 101);
+}
+#food-color{
+    color: orange;
+}
+#healthy-title{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 10PX;
+}
